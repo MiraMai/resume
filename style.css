@@ -197,4 +197,12 @@ i, b {
     color: #8c8c5a;
     }
 } 
+
+@media (max-width: 550px) {
+    .webPageTitle, #aboutMeId, #aboutMe, #skillsId, #skills, #educationId, #education, #employmentHistoryId, #employmentHistory, #languagesId, #languages, #contactMeId, #contactMe, #portfolioId, #portfolio  {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+}
     
