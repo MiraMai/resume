@@ -109,6 +109,14 @@ a:hover {
     padding: 50px;
  } 
 
+ @media screen and (max-width: 570px) {
+    .content {padding: 20px;} 
+  }
+
+  @media screen and (max-width: 380px) {
+    .content {padding: 10px;} 
+  }
+
 body {
     font-size: 16px;
     line-height: 1.7;
